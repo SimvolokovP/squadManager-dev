@@ -1,0 +1,114 @@
+.tactic1 .position:nth-child(1) {
+    bottom: 5px;
+    left: 140px;
+}
+
+.tactic1 .position:nth-child(2) {
+    bottom: 107px;
+    left: 85px;
+}
+
+.tactic1 .position:nth-child(3) {
+    bottom: 107px;
+    left: 190px;
+}
+
+.tactic1 .position:nth-child(4) {
+    bottom: 147px;
+    left: 0;
+}
+
+.tactic1 .position:nth-child(5) {
+    bottom: 147px;
+    right: 5px;
+}
+
+.tactic1 .position:nth-child(6) {
+    bottom: 267px;
+    right: 5px;
+}
+
+.tactic1 .position:nth-child(7) {
+    bottom: 232px;
+    right: 91px;
+}
+
+.tactic1 .position:nth-child(8) {
+    bottom: 232px;
+    left: 88px;
+}
+
+.tactic1 .position:nth-child(8) {
+    bottom: 232px;
+    left: 88px;
+}
+
+.tactic1 .position:nth-child(9) {
+    bottom: 267px;
+    left: 0;
+}
+
+.tactic1 .position:nth-child(10) {
+    top: 55px;
+    left: 93px;
+}
+
+.tactic1 .position:nth-child(11) {
+    top: 55px;
+    left: 199px;
+}
+
+.tactic2 .position:nth-child(1) {
+    bottom: 5px;
+    left: 140px;
+}
+
+.tactic2 .position:nth-child(2) {
+    bottom: 107px;
+    left: 85px;
+}
+
+.tactic2 .position:nth-child(3) {
+    bottom: 107px;
+    left: 190px;
+}
+
+.tactic2 .position:nth-child(4) {
+    bottom: 147px;
+    left: 0;
+}
+
+.tactic2 .position:nth-child(5) {
+    bottom: 147px;
+    right: 5px;
+}
+
+.tactic2 .position:nth-child(6) {
+    bottom: 218px;
+    right: 147px;
+}
+
+.tactic2 .position:nth-child(7) {
+    bottom: 288px;
+    right: 57px;
+}
+
+.tactic2 .position:nth-child(8) {
+    bottom: 288px;
+    left: 52px;
+}
+
+.tactic2 .position:nth-child(9) {
+    top: 45px;
+    right: 28px;
+}
+
+.tactic2 .position:nth-child(10) {
+    top: 14px;
+    right: 144px;
+}
+
+.tactic2 .position:nth-child(11) {
+    top: 45px;
+    left: 20px;
+}

@@ -1,0 +1,134 @@
+@import 'normalize.css';
+@import 'tactics.css';
+@import 'modal.css';
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Jura", sans-serif;
+    background-color: #1D1E21;
+    color: #fff;
+}
+
+.app__body {
+    background-image: url(../img/back.png);
+    width: 375px;
+    height: 561px;
+    background-color: #12151C;
+}
+
+.app__title {
+    margin: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.player,
+.position {
+    width: 90px;
+    height: 109px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.player.sub {
+    position: static;
+    display: block;
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+}
+
+.position {
+    background-image: url(../img/player2.png);
+    background-color: transparent;
+}
+
+.player__img {
+    width: 90px;
+    height: 97px;
+}
+
+.player__name {
+    width: 76px;
+    height: 12px;
+    background-color: #fff;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+}
+
+.player__name--number {
+    width: 15px;
+    background-color: #7D7D7D;
+    color: #fff;
+    height: 100%;
+    border-top-left-radius: 2px;
+    font-size: 11px;
+    border-bottom-left-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player__name--name {
+    width: 46px;
+    background-color: #fff;
+    color: #000;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.position img {
+    width: 100%;
+    height: 100%;
+}
+
+.position:nth-child(1) {
+    bottom: 30px;
+}
+
+.position:nth-child(2) {
+    bottom: 70px;
+}
+
+.position:nth-child(3) {
+    bottom: 0px;
+}
+
+.tactic.active {
+    display: block;
+}
+
+.tactic {
+    display: none;
+}
+
+.app__players {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+}
+
+.app__main {
+    display: flex;
+}
+
+.subs {
+    width: 150px;
+    border: 2px solid #6C6D6F;
+    border-style: dashed;
+}

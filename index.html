@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="modal-container" id="modalContainer">
+            <div class="modal modal-player">
+                <button class="modal__close">close</button>
+                <input type="text" class="modal__name" placeholder="name" id="modalName">
+                <input type="text" class="modal__number" placeholder="number" id="modalNumber">
+                <button id="addImage" class="modal__image">addImage</button>
+                <input type="file" id="imageUpload" accept="image/*" style="display: none;">
+                <div>
+                    <span>is capitan?</span>
+                    <input type="checkbox" class="modal__capitan" id="modalCapitan">
+                </div>
+                
+                <button class="modal__create">create</button>
+            </div>
+        </div>
+        <div class="app">
+            <div class="container">
+                <div class="app__chapter">
+                    <h1 class="app__title">Squad Manager</h1>
+                    <div class="settings">
+                        <label class="settings__label">
+                            <span>TACTICS</span>
+                            <div id="tactics" class="tactics" data-value="4-4-2">
+                                <button class="tactic__btn" value="4-4-2" data-button="tactic1">4-4-2</button>
+                                <button class="tactic__btn" value="4-3-3" data-button="tactic2">4-3-3</button>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+                <div class="app__main">
+                    <div class="app__body">
+                        <div id="players" class="app__players">
+                            <div class="tactic tactic1 active" id="tactic1">
+                                <div class="app__position position"></div>
+                                <div class="app__position position"></div>
+                                <div class="app__position position"></div>
+                                <div class="app__position position"></div>
+                                <div class="app__position position"></div>
+                                <div class="app__position position"></div>
+                                <div class="app__position position"></div>
+                                <div class="app__position position"></div>
+                                <div class="app__position position"></div>
+                                <div class="app__position position"></div>
+                                <div class="app__position position"></div>
+                            </div>
+                            <div class="tactic tactic2" id="tactic2">
+                                <div class="app__position position"></div>
+                                <div class="app__position position"></div>
+                                <div class="app__position position"></div>
+                                <div class="app__position position"></div>
+                                <div class="app__position position"></div>
+                                <div class="app__position position"></div>
+                                <div class="app__position position"></div>
+                                <div class="app__position position"></div>
+                                <div class="app__position position"></div>
+                                <div class="app__position position"></div>
+                                <div class="app__position position"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="subs" class="app__subs subs">
+
+                    </div>
+                </div>
+                <div class="app__actions">
+                    <button class="app__add" onclick="openModal(this)">Add Player</button>
+                    <!-- <button class="app__manager">manager</button>
+                    <button class="app__download">download</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script defer src="js/script.js"></script>
+</body>
+</html>
